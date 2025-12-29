@@ -34,12 +34,43 @@ npm install -g wrangler
 wrangler publish
 ```
 
+### nginx.conf:
 <details>
 <summary>点击展开查看完整代码</summary>
 
-```python
-# 这里放入你非常长的代码
-print("Line 1")
-print("Line 2")
-# ... 甚至几百行 ...
-print("Line 100")
+```
+{
+  "inbounds": [
+    {
+      "port": 8388, 
+      "protocol": "vmess",    
+      "settings": {
+        "clients": [
+          {
+            "id": "af41686b-cb85-494a-a554-eeaa1514bca7",  
+            "alterId": 0
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "certificates": [
+            {
+              "certificateFile": "/usr/local/etc/v2ray/server.crt", 
+              "keyFile": "/usr/local/etc/v2ray/server.key" 
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
+```
