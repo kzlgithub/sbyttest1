@@ -32,6 +32,7 @@ nginx配置文件：https://github.com/kzlgithub/sbyttest1/blob/main/code/nginx.
 ```bash
 npm install -g wrangler
 wrangler publish
+```
 
 <details>
 <summary>点击展开查看完整代码</summary>
