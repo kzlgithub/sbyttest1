@@ -73,4 +73,109 @@ wrangler publish
     }
   ]
 }
+
+{
+  "inbounds": [
+    {
+      "port": 8388, 
+      "protocol": "vmess",    
+      "settings": {
+        "clients": [
+          {
+            "id": "af41686b-cb85-494a-a554-eeaa1514bca7",  
+            "alterId": 0
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "certificates": [
+            {
+              "certificateFile": "/usr/local/etc/v2ray/server.crt", 
+              "keyFile": "/usr/local/etc/v2ray/server.key" 
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
+
+{
+  "inbounds": [
+    {
+      "port": 8388, 
+      "protocol": "vmess",    
+      "settings": {
+        "clients": [
+          {
+            "id": "af41686b-cb85-494a-a554-eeaa1514bca7",  
+            "alterId": 0
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "certificates": [
+            {
+              "certificateFile": "/usr/local/etc/v2ray/server.crt", 
+              "keyFile": "/usr/local/etc/v2ray/server.key" 
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
+
+{
+  "inbounds": [
+    {
+      "port": 8388, 
+      "protocol": "vmess",    
+      "settings": {
+        "clients": [
+          {
+            "id": "af41686b-cb85-494a-a554-eeaa1514bca7",  
+            "alterId": 0
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "certificates": [
+            {
+              "certificateFile": "/usr/local/etc/v2ray/server.crt", 
+              "keyFile": "/usr/local/etc/v2ray/server.key" 
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
 ```
