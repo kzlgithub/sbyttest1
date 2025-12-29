@@ -14,3 +14,21 @@ nginx配置文件：https://github.com/kzlgithub/sbyttest1/edit/main/README.md
 ### 标题3
 
 [![【免费节点】薅CF羊毛自己搭建免费节点](https://img.youtube.com/vi/tPDiM5gYfeg/0.jpg)](https://www.youtube.com/watch?v=tPDiM5gYfeg)
+
+
+# 🚀 快速上手：自建免费节点教程
+
+### 📺 视频演示
+[![【免费节点】薅CF羊毛自己搭建免费节点](https://img.youtube.com/vi/tPDiM5gYfeg/0.jpg)](https://www.youtube.com/watch?v=tPDiM5gYfeg)
+
+---
+
+### 🛠️ 核心操作步骤
+
+**1. 创建 KV 命名空间** 在 Cloudflare 控制台中点击 `Workers & Pages` -> `KV` -> `Create instance`。
+
+**2. 部署 Worker 代码** 复制视频中提到的代码并填入以下命令（示例）：
+
+```bash
+npm install -g wrangler
+wrangler publish
